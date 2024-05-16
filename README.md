@@ -110,7 +110,7 @@ transport.sendMail(email, function(err, info) {
     return console.log('Error!', err, info);
   }
   return console.log('Success!', info);
-}
+});
 
 // verify with nodestyle callback
 transport.verify(function(err, success) {
